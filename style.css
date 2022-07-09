@@ -2,3 +2,20 @@ h1{
   color: red;
   font-size: 50px;
 }
+p{
+  font-size: 40px;
+  color: green;
+}
+#header{
+  background: blue; padding: 20px;
+  font-size: 18px;
+}
+.body{
+  background: red;
+  color: white;
+  padding: 10px;
+}
+/*css grouping*/
+h1,p,#header,.body{
+  text-align: center;
+}
